@@ -1,0 +1,38 @@
+
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.banner{
+    height: 600px;
+    max-width: 1600px;
+    /* background-color: aqua; */
+    background-image: url('../assets/images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    
+    
+}
+.banner-item{
+     background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+     height: 600px;
+}
+.banner-title1{
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+    font-size: 30px;
+    
+}
+.banner-title2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
