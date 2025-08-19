@@ -174,7 +174,7 @@
 .card-container{
     max-width: 1320px;
     height: 1150px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -199,10 +199,11 @@
 .newsletter{
     max-width: 1320px;
     height: 600px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     margin: 0 auto;
     text-align: center;
     padding-top: 200px;
+    margin-bottom: 100px;
 }
 .newsletter h2{
     color: #070211;
@@ -213,4 +214,37 @@
     height: 30px;
     width: 300px;
     border-radius: 30px;
+}
+
+/* footer */
+.footer{
+    max-width: 1600px;
+    height: 600px;
+    background-color: #070211;
+    margin: 0 auto;
+    /* border: 2px solid tomato; */
+}
+.footer-description{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+.footer-description a{
+    color: #FFFFFF;
+}
+
+
+.footer-img{
+    margin: 30px 200px 30px 700px;
+}
+
+.footer-rights{
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.footer-rights a{
+    color: #FFFFFF;
 }
