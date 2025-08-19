@@ -148,3 +148,23 @@
     height: 200px;
     width: 200px;
 }
+
+/* holiday sale section */
+.holiday-container{
+    max-width: 1320px;
+    height: 980px;
+    border: 2px solid tomato;
+
+}
+.holiday-container h4{
+    color: black;
+}
+.holiday-img{
+    display: flex;
+    justify-content: space-around;
+}
+.holiday-img1{
+    
+    height: 300px;
+    width: 400px;
+}
