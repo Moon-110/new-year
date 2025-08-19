@@ -98,6 +98,8 @@
     height: 400px;
     /* border: 2px solid tomato; */
     background-color: beige;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 .span{
     color: #FF0000;
@@ -105,4 +107,44 @@
 .place-container h4{
     font-size: 20px;
     padding-top: 100px;
+}
+
+/* best offer section */
+.best-offer-container{
+    max-width: 1320px;
+    height: 460px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.best-offer-left{
+    width: 35%;
+}
+.best-offer-left h4{
+    
+    font-size: 20px;
+    color: #FF0000;
+}
+.best-offer-left h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF0000;
+}
+.best-offer-container img{
+    height: 300px;
+    width: 300px;
+}
+.best-offer-right{
+    width: 30%;
+}
+.best-offer-right h2{
+    color: #FF0000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.best-offer-right img{
+    height: 200px;
+    width: 200px;
 }
