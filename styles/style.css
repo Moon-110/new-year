@@ -6,7 +6,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+/* banner section */
 .banner{
     height: 600px;
     max-width: 1600px;
@@ -17,7 +17,7 @@
     margin: 0 auto;
     
     border-radius: 10px;
-    
+    margin-bottom: 100px;
     
 }
 .banner-item{
@@ -35,4 +35,25 @@
     text-align: center;
     color: white;
     font-size: 60px;
+}
+
+/* offer section */
+
+.holiday-container{
+    /* border: 2px solid tomato; */
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.holiday-container h1{
+    font-size: 70px;
+    color: #FF0000;
+}
+.holiday-container h4{
+    font-size: 20px;
+    color: #FF0000;
+}
+.holiday-container h2{
+    font-size: 40px;
 }
